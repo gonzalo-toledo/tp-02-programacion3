@@ -28,11 +28,37 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #263629;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #c7ab6e;
+}
+
+h2 {
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: #c7ab6e;
+}
+
+.fieldAddProduct {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.fieldAddProduct label {
+  flex: 1; /* Ocupa 1 parte */
+  min-width: 150px; /* Tamaño mínimo para el label */
+}
+
+.fieldAddProduct input {
+  flex: 3; /* Ocupa 3 partes */
+  padding: 0.5rem ;
+  width: 100%;
 }
 
 button {
@@ -45,6 +71,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: #d8c69b;
 }
 button:hover {
   border-color: #646cff;
@@ -66,3 +93,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+

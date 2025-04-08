@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.swal-form-container .swal-form-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.swal-form-container label {
+  min-width: 80px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.swal-fixed {
+  width: 350px !important;
+  margin: 0 !important;
+}
